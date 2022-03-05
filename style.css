@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SESSÃO 1 - MENU */
+
+body {
+    background: url(assets/background.png);
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.582);
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 60px;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.carteira {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.carteira p {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+/* SESSÃO 2 - TEXTOS E IMAGENS PRINCIPAIS */
+
+.section-1 {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.card-1 {
+    width: 550px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 h3 {
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.avatar {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+
+.avatar p {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.card-2 {
+    width: 650px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.card-2 h2 {
+    position: absolute;
+    top: 75px;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    color: white;
+}
+
+.card-2 span {
+    color: #FF5B50;
+}
+
+.card-3 {
+    width: 335px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+
+/* SESSÃO 3 - IMAGENS */
+
+.section-3 {
+    background-color: rgba(0, 0, 0, 0.582);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagens-1 {
+    margin-bottom: 45px;
+}
+
+.imagens-1 img {
+    margin-right: 15px;
+}
+
+.imagens-2 img {
+    margin-right: 15px;
+}
+
+/* SESSÃO 4 - PORTFÓLIO */
+
+.section-4 {
+    display: flex;
+    background-color: rgb(20, 20, 20);
+    /*background-color: gray;*/
+    height: 85vh;
+}
+
+.dados {
+    width: 285px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.37);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.37);;
+}
+
+.dado-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dado-1 h3 {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.dado-1 p {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.356)
+}
+
+/* SESSÃO 5 - PORTFÓLIO 2 */
+
+.texto-e-imagem {
+    display: flex;
+    width: 1300px;
+    height: 100%;
+    position: relative;
+}
+
+.texto-lorem {
+    background-color: rgb(20, 20, 20);
+    width: 50%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.lorem h5 {
+    margin-left: 20%;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+}
+
+.lorem2 p {
+    margin-left: 20%;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: white;
+}
+
+.imagem-larga {
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    width: 1245px;
+}
+
+.img-larga img {
+    width: 100%;
+    height: auto;
+}
+
+/* SESSÃO 5 - TÍTULO DA SESSÃO */
+
+.section-5 {
+    background-color: rgb(20, 20, 20);
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    margin-left: 120px;
+}
+
+.titulo h2 {
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.titulo span {
+    color: #FF5B50;
+}
+
+/* SESSÃO 6 - ASTRONAUTAS */
+
+.section-6 {
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.esquerda {
+    width: 50%;
+    height: 72%;
+    background-color: rgb(20, 20, 20);
+    border-right: 1px solid rgba(255, 255, 255, 0.527);
+}
+
+.itens-esquerda {
+    background-color: rgb(20, 20, 20);
+    width: 46%;
+    margin-left: 120px;
+}
+
+.texto-esquerda {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.texto-esquerda h3 {
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: lighter;
+}
+
+.autor p {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.418)
+}
+
+.autor span {
+    color: #FF5B50;
+    font-weight: lighter;
+}
+
+.texto-esquerda img {
+    margin-left: 150px;
+    width: 18px;
+}
+
+.autor {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.autor span {
+    margin-left: 120px;
+}
+
+.imagem-esquerda img {
+    width: 80%;
+}
+
+.itens-esquerda-2 {
+    background-color: rgb(20, 20, 20);
+    width: 46%;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.itens-direita {
+    background-color: rgb(20, 20, 20);
+    width: 46%;
+    margin-left: 320px;
+}
+
+.itens-direita-2 {
+    background-color: rgb(20, 20, 20);
+    width: 46%;
+    margin-left: 320px;
+    margin-top: 50px;
+}
+
+/* SESSÃO 6 - MELHORES ARTISTAS */
+
+.section-7 {
+    height: 210px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-melhores h2 {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.titulo-melhores span {
+    color: #FF5B50;
+}
+
+.cards-artistas {
+    width: 40%;
+    height: auto;
+}
+
+/* SESSÃO 8 - CARDS DOS ARTISTAS */
+
+.section-8 {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards-cima {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-left: 180px;
+}
+
+.card-individual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 45, 45);
+    width: 280px;
+    margin-right: 80px;
+    height: 148px;
+    cursor: pointer;
+
+}
+
+.card-individual img {
+    margin-right: 30px;
+}
+
+.card-individual p {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.card-individual span {
+    color: #FF5B50;
+}
+
+.card-individual:hover {
+    background-color: rgb(12, 9, 192);
+    color: white;
+}
+
+/* SESSÃO 9 - RODAPÉ */
